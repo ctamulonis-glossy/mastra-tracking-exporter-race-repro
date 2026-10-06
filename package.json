@@ -1,0 +1,15 @@
+{
+  "name": "mastra-tracking-exporter-race-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@mastra/braintrust": "1.3.18",
+    "@mastra/core": "1.74.0",
+    "@mastra/observability": "1.18.3",
+    "zod": "4.6.5"
+  },
+  "description": "TrackingExporter never ends a span that ends in the tick it starts"
+}
